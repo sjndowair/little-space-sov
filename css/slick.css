@@ -97,7 +97,7 @@
 }
 
 
-.slide_box img{
+.slide_box a{
     width:50%;
     border-radius: 3%;
 }
