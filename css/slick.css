@@ -1,0 +1,132 @@
+.slick-prev , .slick-next{
+    position: absolute;
+    bottom:50%;
+    transition: 0.5s all ease-in-out;
+    transform: rotateY(-50%);
+}
+
+.slick-arrow{
+    width:80px;
+    height: 50px;
+}
+
+.slick-prev {
+    left: -7rem;
+    font-size: 0px;  
+    bottom: 43%;
+  
+}
+
+
+.slick-prev:hover {
+    animation: moveLeft infinite 2s ease-out;
+}
+
+
+.slick-prev::before , .slick-prev::after{
+    content: "";
+    position: absolute;
+    width: 45px;
+    height: 6px;
+    background: #72E5F2;
+    box-shadow: rgba(10, 205, 206, 0.5) 0rem 0rem 0.8rem;
+}
+
+.slick-prev::before{
+    top: 0;
+    transform: rotate(-35deg);
+}
+
+.slick-prev::after{
+    bottom: 20px;
+    transform: rotate(35deg);
+}
+
+.slick-next{
+    right: -2.4rem;
+    font-size: 0;
+    bottom:43%;
+}
+
+.slick-next:hover {
+    animation: moveRight infinite 2s ease-out;
+}
+
+@keyframes moveRight {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(20px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes moveLeft {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(-20px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.slick-next::before, .slick-next::after{
+    content: "";
+    position: absolute;
+    width: 45px; 
+    height: 6px;
+    background: #72E5F2;
+    box-shadow: rgba(10, 205, 206, 0.5) 0rem 0rem 0.8rem;
+}
+
+.slick-next::before{
+    top:0;
+    transform: rotate(-145deg);
+}
+
+.slick-next::after{
+    bottom:20px; 
+    transform: rotate(145deg);
+
+}
+
+
+.slide_box img{
+    width:50%;
+    border-radius: 3%;
+}
+
+.slick-dots{
+    float: left;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 5%;
+    
+}
+
+.slick-dots li button{
+font-size: 0;
+width: 4px;
+height: 4px;
+background: #195973;
+margin-left: 20px;
+border-radius: 50%;
+cursor: pointer;
+}
+
+.slick-dots li.slick-active button
+{  
+    width: 12px;
+    height: 12px;
+    background: #72E5F2;
+    color: black;
+    box-shadow: rgba(10, 205, 206, 0.5) 0rem 0rem 0.8rem;
+}

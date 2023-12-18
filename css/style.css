@@ -1,0 +1,361 @@
+*{
+    cursor: none !important;
+    font-family: 'Lora', 'Song Myung', serif;
+}
+
+body{
+    color:#fff;
+    cursor: url('../images/control.png')5 5, progress;
+    cursor: none;
+      overflow: hidden;
+}
+
+#custom-cursor {z-index: 9999;
+    width: 40px;
+    height: 40px;
+    opacity: .5;
+    border-radius: 50%;
+    background-color: #72E5F2;
+    position: absolute;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(10, 205, 206, 0.5) 2rem 2rem 102rem;
+    box-shadow: 0 0 10px rgba(114, 229, 242, 0.5); /* 그림자 효과 추가 */
+  }
+
+header{
+    width: 100%;  
+    position: fixed;
+    z-index: 2;
+    height: 0;
+}
+
+header:hover{
+    background-color: #000;
+    height: 80px;
+    transition: all 0.5s;
+}
+
+.header{
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+h1{font-size: 50px;}
+
+nav{ width: 50%;}
+
+.nav{justify-content: space-around;
+font-size: 20px;}
+
+.first_section{
+    background: url("../images/pngtree-the-surface-of-the-moon-with-a-dark-background-image_2912849.jpg")no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+
+.dining{
+position:absolute;
+top:20%;
+left:0;
+}
+
+.home{
+    flex-direction: column;
+    height: 300px;
+    padding-left: 4%;
+}
+.home {
+    font-size: 100px;
+    font-weight: bold;
+    color:transparent;
+    -webkit-text-stroke:2.5px;
+    -webkit-text-stroke-color: #fff;
+}
+.home span{
+    font-size: 150px;
+    color: #030e18;
+    -webkit-text-stroke:2.5px;
+        -webkit-text-stroke-color: gray;
+}
+
+.black{
+  padding-top: 10%;
+  font-size: 30px;
+}
+
+
+.third_section{
+    background: #222;
+   
+}
+
+.duce{
+ font-size: 80px;
+ /* margin-left: 13%; */
+ color: rgb(183, 180, 180);
+}
+
+.intro{
+    justify-content: center;
+    gap: 50px;
+    padding-top: 3%;
+}
+
+.my_pic{
+    border-radius: 5%;
+}
+
+.hellow li{
+    font-size: 20px;
+    color: rgb(183, 180, 180);
+}
+
+.hellow li:first-child {
+  padding-bottom: 5rem;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.hellow li span{
+    color:#72E5F2;
+}
+
+.hellow li:first-child span{
+    padding-right: 3%;
+    color: #fff;
+}
+
+.hellow li~li{
+ padding:1% 0;
+}
+
+.my_pic{
+    width: 100%;
+    max-width: 25rem;
+    height: auto;
+}
+
+.four_section{
+    background: #222;
+}
+
+.four_section div:first-child{
+    font-size: 30px;
+}
+
+.four_section h3{
+    font-size: 80px;
+    color: rgb(183, 180, 180);
+    padding-bottom: 3%;
+}
+
+.check_box li{
+    padding-bottom: 1%;
+    font-size: 20px;
+    color:#72E5F2;
+}
+
+.check_box li span{
+    color:#fff;
+}
+
+.check_box span{ 
+line-height: 35px;
+margin-left: 1%;
+}
+
+.stack{
+    color:#72E5F2;
+    font-size: 22px;
+    padding-top: 2%;
+}
+
+
+.stack li{
+    border: solid 2px #72E5F2;
+    border-radius: 20px;
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 2%;
+}
+
+.stack li:hover{
+    background-color: #72E5F2;
+    color: #000;
+    transition: all.5s;
+}
+
+.academic{
+    text-transform: uppercase;
+    color: rgb(183, 180, 180);
+    font-weight: bold;
+}
+
+.academic dt{
+    font-size: 80px;
+}
+
+.academic dd:nth-child(5){
+    border-bottom: 1px solid rgb(183, 180, 180);
+    display: inline-block;
+    padding-right: 15%;
+    padding-bottom: 2%;
+}
+
+.offi{
+    padding-bottom: 5%;
+    opacity: .2;
+}
+
+.last_section{
+background: #222;
+}
+
+.last_section dd{
+  margin-top: 2%;
+  font-size: 20px;
+}
+
+.last_section dd:nth-child(odd){
+    color:#72E5F2;
+}
+.last_section dd span{
+    color:#fff;
+}
+
+section{
+    width: 100vw;
+    position: relative;
+    height: 100%;
+}
+ 
+.work_section{
+    background: #222;
+}
+
+.work_section  h3{
+    font-size: 80px;
+  position: absolute;
+  top: 15%;
+  color:rgb(183, 180, 180);
+}
+
+.iner_box{
+    gap: 20px;
+}
+
+.iner_box h4{
+    font-size: 35px;
+}
+
+.f1{
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.f1 .clone {
+    font-size:25px;
+    /* color: rgb(183, 180, 180); */
+}
+
+.clone2{
+    font-size: 18px;
+}
+
+.clone3 {
+    font-size: 20px;
+}
+
+.clone3 span{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+   border: 2px solid #72E5F2;
+   background: #0e3f52;
+ width:100px;
+text-align: center;
+   margin: 1%;
+   color: #72E5F2;
+   border-radius: 30px;
+}
+
+.Introduction{
+    background: #222;
+}
+
+
+
+.Introduction h3{
+    font-size: 80px;
+    color:rgb(183, 180, 180);
+    position: absolute;
+    top:20%;
+}
+
+.Introduction .email{
+    color: #72E5F2;;
+    font-size: 40px;
+}
+
+.Introduction .email span{
+    margin-left: 1%;
+}
+
+#footer{
+    color: gray;
+    background: #000;
+    font-size: 20px;
+}
+
+#footer , .fp-tableCell{
+    height: 200px !important;
+}
+
+
+address{
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-transform: uppercase;
+}
+
+.email {
+    margin-top: 4rem;
+}
+
+.email a > span {
+    letter-spacing: .1rem;
+    /* font-family: 'Song Myung', serif !important; */
+}
+
+.px{
+    font-size: 1.8rem;
+}
+
+.css{z-index: 1;
+    position: relative;
+    flex-direction: column;
+    gap:10px;
+}
+
+.cogwheel{
+    position: absolute;
+    left: 45%;
+    bottom: 10%;
+}
+
+/* h3{
+    opacity: 0;
+    margin-left: -300px;
+    transition: all .5s;
+} */
+
+h3.on{
+    opacity: 1;
+    margin:0;
+}
