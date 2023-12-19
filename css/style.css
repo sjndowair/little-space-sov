@@ -15,23 +15,64 @@ body{
     height: 40px;
     opacity: .5;
     border-radius: 50%;
-    background-color: #72E5F2;
     position: absolute;
     pointer-events: none;
     transform: translate(-50%, -50%);
+    background-color: #72E5F2;
     box-shadow: rgba(10, 205, 206, 0.5) 2rem 2rem 102rem;
-    box-shadow: 0 0 10px rgba(114, 229, 242, 0.5); /* 그림자 효과 추가 */
+    /* box-shadow: 0 0 10px rgba(114, 229, 242, 0.5); 그림자 효과 추가 */
   }
 
 header{
     width: 100%;  
     position: fixed;
     z-index: 2;
-    height: 0;
+    opacity: .9;
+   background: #000;
+   transition: all .5s;
+   filter:hue-rotate(360deg);
+    box-shadow:#72E5F2 0 0 15px 5px;
+    animation: gradiunte 20s infinite linear;
+}
+@keyframes gradiunte{
+    0%{
+        filter:hue-rotate(360deg);
+    }
+    10%{
+        filter:hue-rotate(334deg); 
+    }
+    20%{
+        filter:hue-rotate(298deg);
+    }
+    30%{
+        filter:hue-rotate(252deg);
+    }
+    40%{
+        filter:hue-rotate(216deg);
+    }
+    50%{
+        filter:hue-rotate(180deg);
+    }
+    60%{
+        filter:hue-rotate(144deg);
+    }
+    70%{
+        filter:hue-rotate(108deg);
+    }
+    80%{
+        filter:hue-rotate(72deg);
+    }
+    90%{
+        filter:hue-rotate(36deg);
+    }
+    100%{
+        filter:hue-rotate(0deg);
+    }
 }
 
 header:hover{
     background-color: #000;
+    opacity: 1;
     height: 80px;
     transition: all 0.5s;
 }
@@ -91,12 +132,6 @@ left:0;
    
 }
 
-.duce{
- font-size: 80px;
- /* margin-left: 13%; */
- color: rgb(183, 180, 180);
-}
-
 .intro{
     justify-content: center;
     gap: 50px;
@@ -148,7 +183,6 @@ left:0;
 .four_section h3{
     font-size: 80px;
     color: rgb(183, 180, 180);
-    padding-bottom: 3%;
 }
 
 .check_box li{
@@ -349,13 +383,21 @@ address{
     bottom: 10%;
 }
 
-/* h3{
+.welcome{
     opacity: 0;
     margin-left: -300px;
-    transition: all .5s;
-} */
+    transition: all 2s;
+}
 
-h3.on{
+.welcome.on{
     opacity: 1;
     margin:0;
 }
+
+.duce{
+    font-size: 80px;
+   opacity: 0;
+   transition: all 2s;
+   margin-left: -300px;
+    color: rgb(183, 180, 180);
+   }
