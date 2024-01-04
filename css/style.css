@@ -92,7 +92,7 @@ font-size: 20px;}
 
 .first_section{
     background: url("../images/pngtree-the-surface-of-the-moon-with-a-dark-background-image_2912849.jpg")no-repeat;
-    background-size: 100%;
+    background-size:cover;
     position: relative;
 }
 
