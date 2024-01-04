@@ -401,3 +401,23 @@ address{
    margin-left: -300px;
     color: rgb(183, 180, 180);
    }
+
+.nine{
+    background-color: #000;
+    border-radius: 30px;
+    width: 1300px;
+}
+
+.nine img{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    transition: all .5s;
+    overflow: hidden;
+}
+
+.nine a:hover{
+    background: #fff;
+    opacity: .6;
+    transition: all .5s;
+}
+
