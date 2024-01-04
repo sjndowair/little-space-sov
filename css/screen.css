@@ -1,0 +1,51 @@
+@media screen and (max-width:1280px) {
+    .header{
+        width: 100%;
+    }
+    .down{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:860px) {
+    .header{
+        display: inline-block;
+    }
+    
+    h1{
+        text-align: center;
+    }
+nav{
+    display: none;
+}
+    .home{
+        padding-left: 30px;
+    }
+
+
+
+}
+
+@media screen and (max-width:500px) {
+    #fp-nav ul, .fp-slidesNav ul{
+        display: none;
+    }
+
+    .home{
+        padding-left: 0;
+    }
+
+    h3 , .down{
+        font-size: 4.5rem;
+        width: 500px;
+        text-align: center;
+    }
+    .dining{
+        top:25%;
+    }
+    .train{
+        padding: 0;
+        margin-top:3%;
+    }
+}
