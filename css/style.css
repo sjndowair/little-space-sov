@@ -18,7 +18,7 @@ body{
     position: absolute;
     pointer-events: none;
     transform: translate(-50%, -50%);
-    background-color: #72E5F2;
+    background-color: #fff;
     box-shadow: rgba(10, 205, 206, 0.5) 2rem 2rem 102rem;
     /* box-shadow: 0 0 10px rgba(114, 229, 242, 0.5); 그림자 효과 추가 */
   }
@@ -69,30 +69,34 @@ header{
         filter:hue-rotate(0deg);
     }
 }
-
+/* 
 header:hover{
     background-color: #000;
     opacity: 1;
     height: 80px;
     transition: all 0.5s;
-}
+} */
 
 .header{
     justify-content: space-between;
     align-items: center;
     height: 80px;
+    
 }
 
-h1{font-size: 50px;}
+h1{font-size: 50px;
+   margin-bottom: 10px;
+}
 
-nav{ width: 50%;}
+nav{ width:674px;}
 
 .nav{justify-content: space-around;
 font-size: 20px;}
 
 .first_section{
     background: url("../images/pngtree-the-surface-of-the-moon-with-a-dark-background-image_2912849.jpg")no-repeat;
-    background-size:cover;
+    background-size: cover;
+    
     position: relative;
 }
 
@@ -394,14 +398,6 @@ address{
     margin:0;
 }
 
-.duce{
-    font-size: 80px;
-   opacity: 0;
-   transition: all 2s;
-   margin-left: -300px;
-    color: rgb(183, 180, 180);
-   }
-
 .nine{
     background-color: #000;
     border-radius: 30px;
@@ -421,3 +417,12 @@ address{
     transition: all .5s;
 }
 
+
+
+.duce{
+    font-size: 80px;
+   opacity: 0;
+   transition: all 2s;
+   margin-left: -300px;
+    color: rgb(183, 180, 180);
+   }
