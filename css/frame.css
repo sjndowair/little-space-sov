@@ -17,12 +17,12 @@
     }
   }
 
-
  .train{
-    font-size: 9rem;    
+    font-size: 5rem;    
     position: relative;
    padding-top: 2%;
    font-weight: bold;
+   margin-top: 5%;
  }
 
  .train ul{
