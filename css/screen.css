@@ -6,6 +6,70 @@
         display: flex;
         flex-direction: column;
     }
+
+    .duce{
+        font-size:4.2rem;
+    }
+
+    .hellow{
+        width: 450px;
+       height: 500px;
+    }
+
+    .hellow li{
+      
+    }
+
+    .hellow li:first-child{
+        padding-bottom: 50px;
+        /* display: flex;
+        flex-direction: column; */
+    }
+
+    .my_pic{
+        max-width: 25rem;
+        justify-content: space-around;
+
+    }
+ 
+   .duce{
+    text-align: center;
+   }
+   .by4{
+    display: flex;
+    flex-direction: column;
+   }
+
+   .earth img{
+    left:50%;
+   }
+
+}
+
+@media screen and (max-width:1060px){
+    .hellow{
+        width: 100%;
+    }
+    .hellow li:first-child{
+        padding-bottom: 50px;
+    }
+
+    .hellow li{
+        text-align: center;
+    }
+
+.bsm{
+    width: 90%;
+}
+.by2{
+    width: 100%;
+}
+    .my_pic{
+        display: none;
+    }
+    .earth img{
+        display: none;
+       }
 }
 
 @media screen and (max-width:860px) {
@@ -15,6 +79,7 @@
     
     h1{
         text-align: center;
+        width: 100%;
     }
 nav{
     display: none;
@@ -22,30 +87,95 @@ nav{
     .home{
         padding-left: 30px;
     }
-
-
+    .my_pic{max-width: 15rem;
+       width: 50%;
+    }
+    .academic dt{
+        font-size: 4rem;
+    }
+    section .by3{
+        font-size: 4rem;
+    }
+    .Introduction h3 {font-size: 4rem;}
 
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:512px) {
     #fp-nav ul, .fp-slidesNav ul{
         display: none;
     }
 
     .home{
-        padding-left: 0;
+        padding-left: 5px;
     }
 
     h3 , .down{
         font-size: 4.5rem;
         width: 500px;
-        text-align: center;
+      text-align: center;
     }
     .dining{
         top:25%;
     }
     .train{
         padding: 0;
-        margin-top:3%;
     }
+
+    .intro{
+       display: inline-block;
+        width: 100%;
+        margin: auto;
+    }
+    .hellow li:first-child{
+        flex-direction: row;
+    }
+
+    .hellow{width: 100%;
+    }
+
+    .hellow li{
+        margin: auto;
+        width: 90%;
+    }
+
+    .my_pic {
+        max-width: 15rem;
+        width: 80%;
+        display: none;
+    }
+
+    .by{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .academic dt{
+        font-size:2.8rem;
+        padding-bottom: 70px;
+    }
+
+    .offi{
+        display: none;
+    }
+
+    section .by3{
+        font-size:2.8rem;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 50px;
+        
+    }
+    .Introduction h3{
+        top:13%;
+        left: 0;
+    }
+
+.tech{
+    display: flex;
+    flex-direction: column;
+    gap: 180px;
+}
+.stack{
+top:200px;
+}
 }
