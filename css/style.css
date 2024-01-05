@@ -18,8 +18,9 @@ body{
     position: absolute;
     pointer-events: none;
     transform: translate(-50%, -50%);
-    background-color: #fff;
-    box-shadow: rgba(10, 205, 206, 0.5) 2rem 2rem 102rem;
+    background-color: #72E5F2;
+    
+    animation: gradiunte 20s infinite linear;
     /* box-shadow: 0 0 10px rgba(114, 229, 242, 0.5); 그림자 효과 추가 */
   }
 
@@ -137,13 +138,17 @@ left:0;
 }
 
 .intro{
-    justify-content: center;
+    justify-content:left;
     gap: 50px;
     padding-top: 3%;
 }
 
 .my_pic{
     border-radius: 5%;
+}
+
+.hellow{
+    width: 660px;
 }
 
 .hellow li{
@@ -207,7 +212,9 @@ margin-left: 1%;
 .stack{
     color:#72E5F2;
     font-size: 22px;
-    padding-top: 2%;
+    position: absolute;
+    padding-top: 30px;
+    width: 100%;
 }
 
 
@@ -219,6 +226,7 @@ margin-left: 1%;
     height: 30px;
     line-height: 30px;
     text-align: center;
+    margin-top: 20px;
     margin-right: 2%;
 }
 
