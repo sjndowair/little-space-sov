@@ -43,8 +43,32 @@
    .earth img{
     left:50%;
    }
-
+.slick-prev{
+    bottom:-90px;
+    left: -40px;
 }
+.slick-next{
+    bottom:-90px;
+    left: 50px;
+}   
+.slick-dots{
+    position: relative;
+    margin-left: 30%;
+}
+.iner_box{
+    display: flex !important;
+    flex-direction: column !important;
+    /* position: relative;
+    bottom:-100px; */
+}
+.shadow{
+    width: 95%;
+    padding-top: 100px;
+}
+.nine img{
+    /* max-width: 500px;
+    height: 500px; */
+}}
 
 @media screen and (max-width:1060px){
     .hellow{
@@ -69,7 +93,19 @@
     }
     .earth img{
         display: none;
+       }  
+}
+
+@media screen and (min-width:710px) and (max-width:1060px){
+    .work_section h3{
+        display: none;
        }
+}
+
+@media screen and (min-width:861px) and (max-width:1280px){
+    .nine img{
+        max-width: 900px;
+    }
 }
 
 @media screen and (max-width:860px) {
@@ -98,6 +134,16 @@ nav{
     }
     .Introduction h3 {font-size: 4rem;}
 
+    .slide_box a {
+        width: 100% !important;
+    }
+
+}
+
+@media screen and (max-width:733px){
+    .slick-dots{
+        bottom: -30px;
+    }
 }
 
 @media screen and (max-width:512px) {
@@ -177,5 +223,13 @@ nav{
 }
 .stack{
 top:200px;
+}
+
+.work_section h3{
+    left: -100px;
+}
+
+.slick-dots{
+    bottom:-30px;
 }
 }
